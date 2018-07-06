@@ -5,4 +5,5 @@ function updateObjectWithKeyAndValue(recipes, prop, value) {
   recipes.prop2 = '2';
   return recipes;
 }
+updateObjectWithKeyAndValue(recipes);
 console.log(recipes);
